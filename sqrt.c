@@ -18,7 +18,11 @@ int main(int argc, char* argv[]) {
 		printf("Sqrt of %d is %fi\n", input, sqrt(-input));
 	}
 	else printf("Sqrt of %d is %f\n",input,sqrt(input));
+<<<<<<< HEAD
 	printf("End of program. Bye!.\n");
+=======
+	printf("End of program. Ciao!.\n");
+>>>>>>> br_negativeSUpport
 	return (0);
 
 } // end main
