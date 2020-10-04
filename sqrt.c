@@ -4,7 +4,7 @@ positive number. */
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+//Takes input from Command Line
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
@@ -14,6 +14,7 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
-	return(0);
+	printf("End of program.Exiting.\n");
+	return (0);
 
 } // end main
